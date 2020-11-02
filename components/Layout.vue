@@ -47,6 +47,7 @@ export default Vue.extend({
    margin-right: auto;
    position: relative;
    padding: 8vh 12px;
+   min-height: calc(#{ var(--railHeight)} * 2);
 
    @include mFlipUp() {
      padding: 0 20px;

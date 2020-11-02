@@ -147,6 +147,7 @@ body {
   font-smooth: auto;
   text-shadow: 0 0 8px rgba(0,0,0,0.4);
   min-height: 100vh;
+  overflow: hidden;
 
   @include mFlipUp() {
     text-align: right;
