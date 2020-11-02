@@ -1,0 +1,242 @@
+@import "./fonts.scss";
+$sma: 32rem;
+$med: 48rem;
+$lar: 72rem;
+
+$mcta: 32px;
+
+@mixin mFlipUp($q: 'medium') {
+  @if $q == 'small' {
+    @media (min-width: $sma) {
+      @content;
+    }
+  }
+  @if $q == 'medium' {
+    @media (min-width: $med) {
+      @content;
+    }
+  }
+  @if $q == 'large' {
+    @media (min-width: $lar) {
+      @content;
+    }
+  }
+}
+
+@mixin mFlipDown($q: 'medium') {
+  @if $q == 'small' {
+    @media (max-width: $sma) {
+      @content;
+    }
+  }
+  @if $q == 'medium' {
+    @media (max-width: $med) {
+      @content;
+    }
+  }
+  @if $q == 'large' {
+    @media (max-width: $lar) {
+      @content;
+    }
+  }
+}
+
+@mixin railLinks() {
+  line-height: 1;
+  font-size: var(--railSubSize);
+  font-weight: 100;
+
+  &, a {
+    color: rgba(255,255,255,0.5); /// #A9EFE8; // var(--dim);
+  }
+
+  a {
+    text-decoration: none;
+
+    &.nuxt-link-exact-active, &.nuxt-link-active {
+      color: #fff; // var(--spark);
+    }
+  }
+}
+
+@mixin railStyles() {
+  @include railLinks();
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  // padding: 20px;
+  left: 0;
+  right: 0;
+
+  height: var(--railHeight);
+  // border: 1px solid greenyellow;
+  // background: var(--white);
+
+  @include mFlipUp() {
+    padding: 20px;
+  }
+
+  > * + * {
+    margin-left: 0.2rem;
+  }
+}
+
+$subRailHeight: 28px;
+
+@mixin mobileSubRailStyles() {
+  height: $subRailHeight;
+  width: 100vw;
+  background: rgba(0,0,0,0.4); //   background: rgba(13, 79, 115, 0.9);
+}
+
+:root {
+  --grey:   #cccccc;
+  --white:  #f1f1f1;
+  --spark:  #3dc8ff; // #17dae8;
+  --dim:    #a7bcc9;
+  --flat:   #44dbcc; // #489991;
+
+  --railHeight: 6rem;
+  --railTitleSize: 2.6rem;
+  --railSubSize: 1.3rem;
+
+  @include mFlipUp('small') {
+    --railHeight: 6rem;
+    // --railTitleSize: 5rem;
+  }
+  @include mFlipUp('medium') {
+    --railTitleSize: 4rem;
+    --railSubSize: 2rem;
+  }
+
+  @include mFlipUp('large') {
+    --railHeight: 12vw; // 3rem;
+    --railTitleSize: 8vw;
+    // --railSubSize: 2.4rem;
+  }
+
+  @include mFlipUp('large') {
+    --railHeight: 9vw;
+  }
+
+  @media (min-width: 72rem) {
+    // --railHeight: 4.2rem;
+  }
+}
+
+
+$title: "Rubik";
+
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000; // var(--flat);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smooth: auto;
+  text-shadow: 0 0 8px rgba(0,0,0,0.4);
+  min-height: 100vh;
+
+  @include mFlipUp() {
+    text-align: right;
+  }
+
+  @include mFlipDown() {
+    padding-bottom: 42px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+section, a.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.5;
+  // padding: 20px 0;
+  font-size: 1.2rem;
+  color: #fff;
+  // border-radius: 16px 0 0 16px;
+  font-weight: 400;
+  text-decoration: none;
+  // border: 1px solid rgba(255,255,255,0.3);
+
+  @include mFlipDown() {
+    font-size: 1rem;
+    align-items: flex-start;
+  }
+
+  @include mFlipUp() {
+    p, h2, h3, h4, h5 {
+      display: inline-block;
+      width: auto;
+      background: rgba(13, 79, 115, 0.6); // rgba(0,0,0,0.5);
+      padding: 2px 8px;
+    }
+    // box-shadow: inset 0 0 32px rgba(13, 86, 115, 0.4);
+  }
+
+  .container {
+    @include mFlipDown('small') {
+      padding-left: 0!important;
+      padding-right: 0!important;
+    }
+  }
+
+  h2, h3, h4, h5 {
+    font-family: $title; // "Squada One", sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+    line-height: 1;
+    text-transform: lowercase;
+    color: var(--spark); //  rgba(255,255,255,0.6); // #A44A3F; // #BA5624;
+  }
+
+  h2, h3, h4, h5 {
+    + p, + h2 {
+      margin-top: 1.2rem;
+    }
+  }
+
+  p {
+    // text-align: justify;
+  }
+
+  p + p {
+    margin-top: 1.2rem;
+  }
+
+  + section, + a.section {
+
+    // @include mFlipDown() {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.3);// var(--flat); //
+    // }
+
+    @include mFlipUp() {
+      // margin-top: 2rem; //0.2rem;
+    }
+    // border-top: 2px solid rgba(255,255,255,0.05);
+  }
+}
+
+.bottom-rail, .top-rail, .side-rail {
+  font-family: $title;
+}
