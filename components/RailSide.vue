@@ -30,21 +30,14 @@ export default Vue.extend({
     background: transparent;
     justify-content: center;
     align-items: center;
-    // padding: 0.4rem;
-    // border-top: 1px solid rgba(255,255,255,0.2);
-
   }
 
-  @include mFlipDown('small') {
-    // bottom: calc(var(--railHeight) + .4rem);
-  }
 
   @include mFlipUp() {
     width: 17.4vw;
     flex-direction: column;
     align-content: flex-end;
     justify-content: flex-start;
-    // height: 44vh;
     height: auto;
     border: 0px solid #fff;
     position: absolute;
@@ -58,16 +51,13 @@ export default Vue.extend({
   @include railLinks();
 
     a {
-      // font-size: 50%;
       text-transform: lowercase;
       text-align: left;
-      // color: var(--dim);
 
       + a {
         @include mFlipUp() {
           margin-top: 4vh;
           &:last-child {
-            // margin-top: 12vh;
             position: absolute;
             bottom: 3px;
             left: 0;
@@ -85,7 +75,5 @@ export default Vue.extend({
         color: rgba(255,255,255,0.5);
       }
     }
-
-
 }
 </style>

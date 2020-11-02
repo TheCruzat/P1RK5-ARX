@@ -39,14 +39,10 @@ export default {
     width: 100%;
     transition: background .5s ease-in;
     z-index: 5;
-    // right: 0;
-    // opacity: 0.8;
-    // border: 1px solid transparent;
 
     &.open {
       transition: background 0.25s ease-out;
       background: rgba(13, 79, 115, 0.9);
-      // border-color: rgba(255,255,255,0.3);
       @include mFlipUp('medium') {
 
       }
@@ -119,8 +115,6 @@ export default {
       padding: 20px;
       right: auto; // calc(50vw - 220px); // auto; // 23.5vw;
       line-height: 1;
-      // max-width: 700px; // 48rem; // 26.3vw;
-      // left: auto; // calc(50% - 350px); //  23.5vw; //
     }
   }
 
@@ -138,6 +132,5 @@ export default {
     font-size: 1rem;
     background: transparent;
     color: #fff;
-
   }
 </style>

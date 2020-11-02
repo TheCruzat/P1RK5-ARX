@@ -11,15 +11,6 @@
         <h2>Office / Revels / Regular / Last / Chapters</h2>
       </div>
     </section>
-    <!--section>
-      <p>Entrenched in my lane as a builder</p>
-    </section>
-    <section>
-      <p>A house with dogs and cats and chickens</p>
-    </section>
-    <section>
-      <p>Nestled in a corner of SE under a mountain view</p>
-    </section-->
   </Layout>
 </template>
 

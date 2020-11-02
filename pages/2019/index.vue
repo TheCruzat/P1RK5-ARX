@@ -11,15 +11,6 @@
         <h2>Rain / Grim / Arena / Beacon / Nos / Sol</h2>
       </div>
     </section>
-    <!--section>
-      <p>Greying wolf still light on his feet</p>
-    </section>
-    <section>
-      <p>Time in the lab best spent with the apprentice</p>
-    </section>
-    <section>
-      <p>We walk with the moon and the warrior</p>
-    </section-->
   </Layout>
 </template>
 

@@ -38,36 +38,7 @@
     <section>
       <p>ARX artwork by Sudi</p>
     </section>
-    <!-- section>
-      <h2>the artist at 16, 21, 31 and 41</h2>
-      <p>Four suites of music representing the sounds and attitudes of four eras, four stages of life.</p>
-      <p>The Schoolboy, the Lover, the Soldier, the Justice.</p>
-    </section>
-    <section>
-      <h2>inspirations</h2>
-      <p>B-Boy Bouillabaisse by the Beastie Boys</p>
-      <p>Rhyme Time Travel by the Arsonists</p>
-      <p>The Ages of Man, from As You Like It, by William Shakespeare</p>
-    </section>
-    <section>
-      <h2>every method, in its time</h2>
-      <p>Each suite reflects both an era and an age, so not just the sound of 1994, but also capturing some of the feelings and drives of being 16 in that year. And taking it a step further, returning to the recording methods and tools of each age in each era.</p>
-    </section>
-    <section>
-      <p>1994, lo fi samplers and recording onto cassettes, vocals without punch edits, mixing & effects in the 4-track, most basslines were played on a Fender, the young and braggadicious.</p>
-    </section>
-    <section>
-      <p>1999, MIDI routing, sample chops in software, the beginning of my epic record digs, vocals recorded into a digital DAW, mixdowns to cassette for the car.</p>
-    </section>
-    <section>
-      <p>2009, favorite sparse hardware combined with a galaxy of software editing tools, tricks of the trade from various studios, </p>
-    </section>
-    <section>
-      <p>2019, an eclectic mix of devices.</p>
-    </section>
-    <section>
-      <p>a</p>
-    </section-->
+    
   </Layout>
 </template>
 

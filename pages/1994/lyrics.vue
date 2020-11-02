@@ -8,8 +8,6 @@
       Lake to the stoop, how it gets my folks through it<br />
       Street level kids from the beemers to the buicks</p>
 
-      -
-
       <p>Let’s bump it back to sets, labels on black cassettes<br />
       Demos on the demographic, who raps it best<br />
       Dollars on a distro, home dub TDKs<br />

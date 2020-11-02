@@ -11,15 +11,6 @@
         <h2>Car / Cypher / Basement / Radio / Temple</h2>
       </div>
     </section>
-    <!--section>
-      <p>Almost free of collegiate obligations</p>
-    </section>
-    <section>
-      <p>My roommate showed me how MIDI and HTML worked</p>
-    </section>
-    <section>
-      <p>Long nights and sharp days in Logan Square</p>
-    </section-->
   </Layout>
 </template>
 

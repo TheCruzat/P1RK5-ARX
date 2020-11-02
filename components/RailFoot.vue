@@ -4,7 +4,6 @@
     <p>All Content Copyright &copy;{{ yr }} <credit>// site by <a href="//cruzat.media" target="_blank" class="sig">C<span>ruzat</span>.M<span>edia</span></a></credit></p>
 
     <img src="/sudi.png" alt="Sudi" />
-    <!--<NuxtLink v-for="link in links" :to="link.url" v-html="link.label"></NuxtLink>-->
   </div>
 </template>
 
@@ -135,9 +134,6 @@ $mcta: 32px;
     max-width: 50vw; //30rem;
     height: auto;
     opacity: 1;
-    // svg {
-      // animation: 3s appear;
-    // }
 
     @keyframes appear {
       0% {
@@ -148,10 +144,6 @@ $mcta: 32px;
     path {
       fill: #fff;
     }
-  }
-
-  iframe {
-    // display: none;
   }
 }
 </style>

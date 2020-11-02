@@ -11,16 +11,6 @@
           <h2>Credo / Posture / Boasts / Lake / Wild</h2>
         </div>
       </section>
-      <!--section>
-        <p>A Junior in high school, just starting at the JHC</p>
-      </section>
-      <section>
-        <p>I bought a Tascam four track from a buddy for a song</p>
-      </section>
-      <section>
-        <p>Every weekend we ran wild from Evanston</p>
-      </section-->
-
     </Layout>
 </template>
 

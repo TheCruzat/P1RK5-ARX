@@ -47,9 +47,7 @@
 
       @include mFlipDown() {
         margin-top: 0.4rem;
-        // background: rgba(0,0,0,0.4);
         @include mobileSubRailStyles();
-       //  margin-left: 0; // -2.5rem;
       }
       a {
         font-size: var(--railSubSize);
@@ -95,7 +93,6 @@
       @include mFlipUp('large') {
         width: 16.4vw;
       }
-      // color: #fff!important;
     }
 
     a {

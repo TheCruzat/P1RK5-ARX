@@ -3,7 +3,6 @@
     <RailHead :spec="spec" />
     <RailFoot />
     <RailSide v-if="sub" :sub="sub" />
-    <!--div class="side-rail" v-if="sub == undefined" /-->
     <div class="content">
       <div class="container">
         <slot />
@@ -26,7 +25,6 @@ export default Vue.extend({
 
 <style lang="scss">
   @import "../styles/global.scss";
-  // $frame: var(--railHeight); // 8.4vw; // 6.6vw;
  .content {
    position: absolute;
    top: var(--railHeight);

@@ -96,11 +96,6 @@
       }
     }
 
-    @include mFlipDown() {
-      // display: flex;
-
-    }
-
     @keyframes appear2 {
       0% {
         background-position: 82% 50%;
@@ -133,8 +128,6 @@
       max-width: 22vw; // 28vw; // 50vw; //30rem;
       height: auto;
       opacity: 1;
-      // margin-top: 20vh;
-      // top: 22vh;
       bottom: 2rem;
       position: absolute;
       transform: rotate(-12deg);
@@ -146,9 +139,6 @@
       @include mFlipUp('large') {
         max-width: 32vw;
       }
-      // svg {
-      // animation: 3s appear;
-      // }
 
       @keyframes appear {
         0% {
@@ -158,12 +148,7 @@
       }
       path {
         fill: var(--spark); //#52bdde; // rgba(255,255,255,0.25);
-        // stroke: black;
       }
-    }
-
-    iframe {
-      // display: none;
     }
 
     b {
@@ -184,9 +169,6 @@
       background: rgba(255,255,255,0.1);
       border-radius: 50%;
       box-shadow: inset 0 0 80vh 0 rgba(255,255,255,0.7);
-      // top: 0.4rem;
-      // left:
-      // left: -calc($sz/2 + 50vw);
 
       @include mFlipDown() {
         display: none;
@@ -200,8 +182,6 @@
         position: absolute;
 
       }
-      // animation: 1s appear;
-      // }
 
       @keyframes appear {
         0% {
