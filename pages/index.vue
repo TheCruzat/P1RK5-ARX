@@ -38,7 +38,7 @@
     <section>
       <p>ARX artwork by Sudi</p>
     </section>
-    
+
   </Layout>
 </template>
 
