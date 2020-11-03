@@ -228,7 +228,17 @@ section, a.section {
     // @include mFlipDown() {
       margin-top: 2rem;
       padding-top: 2rem;
-      border-top: 1px solid rgba(255,255,255,0.3);// var(--flat); //
+      position: relative;
+      // border-top: 1px solid rgba(255,255,255,0.3);// var(--flat); //
+    &:before {
+      display: block;
+      position: absolute;
+      content: "";
+      width: 50%;
+      top: 0;
+      height: 1px;
+      background: rgba(255,255,255,0.4);
+    }
     // }
 
     @include mFlipUp() {
@@ -241,3 +251,5 @@ section, a.section {
 .bottom-rail, .top-rail, .side-rail {
   font-family: $title;
 }
+
+

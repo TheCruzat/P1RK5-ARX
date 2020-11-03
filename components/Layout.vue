@@ -50,7 +50,7 @@ export default Vue.extend({
    min-height: calc(#{ var(--railHeight)} * 2);
 
    @include mFlipUp() {
-     padding: 0 20px;
+     padding: 9vh 20px;
      width: 56vw; // 65.2vw;
      max-width: 48rem;
      display: table;
