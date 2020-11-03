@@ -31,7 +31,7 @@ export const railLinks19 = [
     link: "/2019/gear",
   },
   {
-    label: "[x]",
+    label: "(x)",
     link: "/2019",
   }
 ];
