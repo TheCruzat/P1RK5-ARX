@@ -30,6 +30,7 @@ export default Vue.extend({
     background: transparent;
     justify-content: center;
     align-items: center;
+    z-index: 1;
   }
 
 

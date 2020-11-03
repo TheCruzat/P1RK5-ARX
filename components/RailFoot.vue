@@ -2,18 +2,16 @@
   <div class="bottom-rail">
     <div class="bottom-rail__panel"></div>
     <p>All Content Copyright &copy;{{ yr }} <credit>// site by <a href="//cruzat.media" target="_blank" class="sig">C<span>ruzat</span>.M<span>edia</span></a></credit></p>
-
-    <img src="/sudi.png" alt="Sudi" />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-
 const now = new Date();
 const yr = now.getFullYear();
 
 export default {
+
   data: function() {
     return {
       links: [],
@@ -38,7 +36,7 @@ $mcta: 32px;
   align-items: center;
   color: #fff!important;
   padding-top: $subRailHeight;
-  // z-index: 3;
+  z-index: 1;
 
   @include mFlipUp() {
     align-items: flex-end;
@@ -76,22 +74,9 @@ $mcta: 32px;
     }
   }
 
-  img {
-    position: absolute;
-    height: auto;
-
-    @include mFlipDown() {
-      bottom: 15px;
-      right: 12px;
-      max-width: 3.2rem;
-      opacity: 0.7;
-    }
-
-    @include mFlipUp() {
-      bottom: 20px;
-      right: 20px;
-      max-width: 3.8rem;
-    }
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 
   strong {

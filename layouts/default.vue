@@ -3,6 +3,7 @@
     <Nuxt />
     <BackGround />
     <Player />
+    <SudiGallery />
   </div>
 </template>
 
