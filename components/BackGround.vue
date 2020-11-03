@@ -133,7 +133,9 @@
       transform: rotate(-12deg);
 
       @include mFlipDown() {
-        display: none;
+        // display: none;
+        max-width: 100vw;
+        bottom: 33%;
       }
 
       @include mFlipUp('large') {
@@ -148,6 +150,9 @@
       }
       path {
         fill: var(--spark); //#52bdde; // rgba(255,255,255,0.25);
+        @include mFlipDown() {
+          fill: rgba(255,255,255,0.4);
+        }
       }
     }
 
