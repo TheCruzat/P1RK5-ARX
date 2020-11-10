@@ -2,16 +2,17 @@
   <Layout spec="gear" :sub="railLinks">
     <section>
       <h2>Software</h2>
-      <p>ACID Pro was used to create certain beat elements.<br>
-        Ableton was used for primary production, MIDI brain + audio mix.</p>
+      <p>ACID Pro: arrangement elements<br>
+        Ableton: main production, MIDI brain, audio mix</p>
     </section>
     <section>
       <h2>Hardware</h2>
-      <p>TR-Rack, EMU Proteus 2K, EMU Mo'Phatt, Yamaha AN200.</p>
+      <p>TR-Rack, Proteus 2K + Mo'Phatt, AN-200</p>
     </section>
     <section>
       <h2>Recording</h2>
-      <p>All vocals were recorded with a Shure AXS1 running through a Mackie VLZ-12.</p>
+      <p>All: Ableton > TASCAM Porta-05 > Scarlett 2i2</p>
+      <p>Vocals: AXS1 > VLZ-12 > Scarlett 2i2</p>
     </section>
   </Layout>
 </template>

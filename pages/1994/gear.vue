@@ -2,20 +2,17 @@
   <Layout spec="gear" :sub="railLinks">
     <section>
       <h2>Software</h2>
-      <p>Ableton was used for creating various beat elements and combining different takes from the 4 track.</p>
+      <p>Ableton: main production, arrangement elements for samplers, audio mix</p>
     </section>
     <section>
-      <h2>Main Hardware</h2>
-      <p>BOSS SP-202, Roland SP-404, Akai MPC 60, Fender J Bass (de Mejico)</p>
-    </section>
-    <section>
-      <h2>Effects</h2>
-      <p>Moog Minifooger Delay, BOSS FDR-1 '65, Realistic EQ</p>
+      <h2>Hardware</h2>
+      <p>SP-202, SP-404, MPC 60, J Bass (de Mejico), Minifooger Delay, FDR-1 '65, Realistic EQ</p>
     </section>
     <section>
       <h2>Recording</h2>
-      <p>All performances were recorded on a TASCAM Porta-05 with TDK-SA90 cassettes, then tracked into Ableton via Scarlett 2i2.</p>
-      <p>All vocals were recorded with a Shure 588SA.</p>
+      <p>All: TASCAM Porta-05 > Scarlett 2i2</p>
+      <p>Beats: SP-404+SP-202 > Porta-05 w/ MD Delay, REQ</p>
+      <p>Vocals: 588SA > Porta-05 w/ MF Delay, FDR</p>
     </section>
   </Layout>
 </template>

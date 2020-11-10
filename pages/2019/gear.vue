@@ -2,15 +2,16 @@
   <Layout spec="gear" :sub="railLinks">
     <section>
       <h2>Software</h2>
-      <p>Ableton was used for primary production, MIDI brain + audio mix.</p>
+      <p>Ableton: main production, MIDI brain, audio mix</p>
     </section>
     <section>
       <h2>Hardware</h2>
-      <p>Akai MPC-2500, Novation A-Station, Korg MS-2000R, Roland JP-8080.</p>
+      <p>MPC 2500, A Station, MS-2000R, JP-8080, J Bass (de Mejico), SG Special</p>
     </section>
     <section>
       <h2>Recording</h2>
-      <p>All vocals were recorded with a R0DE NT1 through a Presonus Tube Pre.</p>
+      <p>Vocals: NT1 > Tube Pre > Scarlett 2i2</p>
+      <p>Bass: Moogerfooger Drive > Scarlett 2i2</p>
     </section>
   </Layout>
 </template>

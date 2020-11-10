@@ -9,30 +9,30 @@
     </section>
     <section>
       <h2>Posture</h2>
-      <p>There had always been gangs in my life, Evanston and Chicago. I learned from a small age that little details mattered. In environments like that, aesthetic is important. Style is important. The way you walk, the way you carry yourself are important. The colors you wear, how you wear them.</p>
+      <p>There had always been gangs in my life, Evanston and Chicago. I learned at a small age that the details matter. Aesthetic is important. Style is important. The way you walk, the way you carry yourself are important. The colors you wear, how you wear them.</p>
+      <p>Do not pretend to be a thing you are not.</p>
     </section>
     <section>
       <h2>Boasts</h2>
-      <p>South Evanston has produced some of the greatest talkers of shit that the world has ever seen. From middle school through high school, every day there would be a couple of kids who would run the dozens on you. So you either got quick with comebacks or grew a thick skin.</p>
+      <p>South Evanston has produced some of the greatest talkers of shit that the world has ever seen. From middle school through high school, every day there would be a couple of kids who would run up and run the dozens. So you either got quick with comebacks or grew a thick skin.</p>
     </section>
     <section>
       <h2>Lake</h2>
-      <p>The thing about Evanston that struck me when I first went there in 1988, and I still think of to this day, is the lakefront, lined by broken concrete.</p>
-      <p>There are no words to describe my feelings for that barrier of wreckage, the site of so many interesting times with so many people across so many years.</p>
+      <p>The first time I was in Evanston, in 1988, we went to the lake for a picnic. I was captivated by the massive chunks of concrete, forming a rough wall along the lakefront, separating Lake Michigan from lush green parks. Like any good South E kid, I spent many summer days crawling over the rocks between South Bully and Dempster.</p>
+      <p>There are no words to describe my feelings for that barrier of wreckage, the site of so many interesting times with so many people across so many years. In my last days in Evanston, I also dropped in on the lake to say goodbye.</p>
     </section>
     <section>
       <h2>Wild</h2>
       <p>We gathered in a pack that would number from 4 to 14, we ran havoc through every suburb of Chicago our boredom would lead us to.</p>
-      <p>We stole anything that wasn't nailed down. Trophies and treasures, as well as trash that was quickly disposed of. Some were about the take, not the keep. A few have been kept to this day.</p>
+      <p>We stole anything that wasn't nailed down. Trophies and treasures, as well as trash that was quickly disposed of. Some were about the take, not the keep. A rare few have been kept to this day.</p>
     </section>
     <section>
       <h2>Isaac's Van</h2>
-      <p>The side door that wouldn't open, you had to go in and out through the front passenger door and hop to the benches in the back. The time we were pulled over and the cop tried to open the side door, it almost fell off its track. The van smelled like teenage boys and vegan farts, there were always empty takeout containers on the floor. The stereo was busted, the boombox was there to listen to music.</p>
-      <p>In the back window of the van was a vinyl copy of Bizarre Ride II Tha Pharcyde, it had been left in the rear windshield and allowed to melt and warp in the sun. The yellow vinyl bubbled and warped, completely unplayable, relegated to its new role as a decoration, a lifestyle statement, a retrofitted punk decision on consumerism.</p>
+      <p>The side door wouldn't open, you had to go in and out through the front passenger door, hop to the benches in the back. The time we were pulled over and the cop tried to open the side door, it almost fell off its track. It was our first distance drive, we were coming back from a show in Iowa. The van smelled like teenage boys and vegan farts, there were always empty takeout containers on the floor. The stereo was busted, the boombox on batteries was there for music.</p>
     </section>
     <section>
       <h2>The Rounds</h2>
-      <p>We had arranged circuits of different stores that we would run through on Sundays. We would move quickly through two Best Buys, a Blockbuster Music, a Kroch's & Brentano's and a Borders, bold as brass.</p>
+      <p>We had arranged circuits of different stores that we would run through to boost on Sundays. We would move quickly through two Best Buys, a Blockbuster Music, a Kroch's & Brentano's and a Borders, bold as brass.</p>
       <p>We did it so often that we ran out of things we wanted, you would boost out of habit. Once ---- had a handful of sensor chiclets he'd pulled off CDs he'd placed back on shelves.</p>
       <p>He walked around the store, trying to sneak chiclets onto various shoppers. Then he stood next to the detectors by the door and whenever anyone would walk in or out, he'd toss one after them.</p>
       <p>Not one of them went off.</p>
