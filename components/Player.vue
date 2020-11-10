@@ -67,8 +67,9 @@ export default {
       padding: 0;
       cursor: pointer;
       font-size: 1.4rem; // var(--railSubSize); //
-      font-family: $title;
+      font-family: "Nunito";
       text-transform: uppercase;
+      text-shadow: 0 2px 2px rgba(0,0,0,0.5);
       // height: var(--railHeight);
       // margin: -20px 0 -60px;
       font-weight: 100;
@@ -86,6 +87,7 @@ export default {
         height: $mcta;
         margin: 0;
         font-size: 1rem;
+        font-weight: 400;
       }
     }
 
