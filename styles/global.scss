@@ -215,6 +215,12 @@ section, a.section {
     }
   }
 
+  a {
+    color: var(--white); // var(--spark);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spark);
+  }
+
   p {
     @include mFlipUp() {
       text-align: justify;
