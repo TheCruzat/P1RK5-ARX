@@ -4,12 +4,10 @@
       <p>"...and then the justice, in fair round belly, with good capon lin’d..."</p>
     </section>
     <section>
-      <p>I was 41 years old</p>
+      <h2>Rain / Grim / Arena / Beacon / Nos / Sol</h2>
     </section>
     <section>
-      <div class="set">
-        <h2>Rain / Grim / Arena / Beacon / Nos / Sol</h2>
-      </div>
+      <p>I was 41 years old</p>
     </section>
   </Layout>
 </template>
@@ -38,7 +36,7 @@ export const railLinks19 = [
 
 export default {
   head: {
-    title: '2019 // ARX // P1RK5',
+    title: '2019 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

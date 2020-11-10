@@ -2,44 +2,42 @@
   <Layout spec="tales" :sub="railLinks">
     <section>
       <h2>Office</h2>
-      <p>A bleary eyed morning, standing at the MAX station or Trimet stop, the caffeine doing its best to pull my brain out of the stupor from last night. This is normal, I work with many functional alcoholics and there is a culture of "putting a nip in your coffee". A flask at every desk.</p>
-      <p>The ocean of liquor I saw consumed in corporate environments dwarfed the small wildfire of weed I'd seen burned in recording studios.</p>
+      <p>A bleary morning, standing at a MAX station or Trimet stop, the caffeine doing its damnedest to pull my brain out of the remaining haze of The Night Before. This is normal, I work with many functional alcoholics and there is a culture of "putting a nip in your coffee". A flask at every desk. The vast oceans of liquor I saw consumed in corporate environments dwarfed the small wildfire of weed I'd seen burned in recording studios.</p>
     </section>
     <section>
       <h2>Revels</h2>
-      <p>The rigors of regular worklife and office culture demand adventures on the weekends. One of the great things about Portland is that you can drive for 30 minutes in any direction and are in some kind of de-urbanized nature. It is almost impossible to completely unplug but there are a couple of blissful weekends where it happens.</p>
+      <p>The culture of abundance requires almost continuous celebration, most commonly at lunches or happy hours. We become beloved regulars and heavy tippers, the Rialto, the Rock Bottom, the Virginia. Only two years previous I had been scrounging for pennies and nickels, here I was leaving $10 tips on $15 tabs.</p>
     </section>
     <section>
       <h2>Regular</h2>
-      <p>There is a definite sense that we are getting away with something. A self satisfied criminal swagger, or maybe we were still young enough to need to assign greater meaning to our actions. </p>
-      <p>Every lunch break or happy hour is a celebration. Top shelf as a rule. Any restaurant without a bar wasn't worth our lunch money.</p>
+      <p>I had spent so long outside the glass box peering in, to finally be one of the ants bustling around in The Big Company took some adjustment. There was an arrogance about everything we did, a belief that we were part of some kind of elite class that was fundamentally changing the world with our browser garbage.</p>
     </section>
     <section>
       <h2>Last</h2>
-      <p>There are some moments that crystallize and stay with you, haunt your thoughts. Some that fly right by, in the moment, and only later do you realize that that was the last time a certain thing happened.</p>
-      <p>This was originally supposed to be for my friend ____, we took many many walks in our younger years. I was recalling our last walk... but then at the end of 2019, his brother died. I'm back in Evanston, and we are walking the loop around Judson again, sharing a joint and trying to make sense of things.</p>
+      <p>I originally wrote something for an old good friend who I have drifted from in life, a bittersweet recounting of our last walk together, the last of many. But then, at the end of 2019, his brother Ben died, and we found ourselves taking another walk around Judson to Hinman, sharing a joint and trying to make sense of it.</p>
+      <p>Ben had also been a good friend for over 20 years, we had our ups and downs, we were on a down when he had passed. The shadow that ultimately swallowed him had followed him for his entire life.</p>
+      <p>And my last day with Ben was awesome. We met up for coffee, took his dog for a walk, I saw his apartment. No place of Ben's was ever complete without its Dubious Sex Lair, he had finally graduated to Black Velvet painting of Tiger Emerging From Lillies. He also had become a massive Arduino nerd and had this new Mad Scientist corner with a bunch of half built builds, robot claws and LEDs.</p>
+      <p>We walked for forever in a Chicago July to get to an open Brown line stop, took the El into Evanston. Stopped by his parents' house, I visited with the Mater Familias, then he came with me back to my parents' place. I loaded up his car with a bunch of old gear from the Double-P days, he had forgotten I made music and was surprised at his haul. He told me he just liked pulling electronics apart and I believed him. I had to.</p>
+      <p>The last time I saw Ben, he was driving away from my parents' house. He was a beautiful human with a good heart, I try to remember him every day.</p>
     </section>
     <section>
       <h2>Chapters</h2>
       <p>There is a page in a book, one side of the page has the end of one chapter, the other side has the beginning of the next. You might not realize the chapter is over until you turn the page, but once you turn the page, you cannot go back. You are already in the new chapter.</p>
     </section>
     <section>
-      <h2>kanye ascendant</h2>
-      <p>There was enough arrogance and self satisfaction to go around. In a downtown where most buildings were four or five stories, we took our coffee breaks on a skydeck on 8.</p>
-      <p></p>
-    </section>
-    <section>
       <h2>plaza</h2>
       <p>No Fish Go Fish had these bomb little fish-shaped pastries in various flavors, pairing with great soups and chilis. They were a fixture on SE Hawthorne for more than ten years, when they finally got a second fish-mold-oven they had a cart downtown.</p>
-      <p>They were a Pop and Pop operation, the husband on the downtown cart was a huge sci fi nerd and we talked about all the things we were excited about. After Tron 2 was announced he was buzzing, huge crush on Bruce Boxleitner. I don't know if I could have had that conversation in Chicago.</p>
+      <p>They were a Pop and Pop operation, the husband on the downtown cart was a huge sci fi nerd and we talked about all the things we were excited about. After Tron 2 was announced he was buzzing, huge crush on Bruce Boxleitner. I don't know if I could have had that conversation in Chicago. Growth is good.</p>
     </section>
     <section>
       <h2>arcade</h2>
-      <p>I have a whiskey flask and a packed bowl in my pocket, regularly going to the bathroom for spikes from both. I have more quarters than time and spend hours making my way around the arcade, loop after loop after loop.</p>
-      <p>I rediscover the Cruisin World driving game, which I had played fanatically in early 1997. </p>
+      <p>I have a whiskey flask and a packed bowl in my pocket, regularly going to the bathroom for spikes from both. I have more quarters than time and spend hours making my way around the arcade, loop after loop after loop. I had never had this community arcade experience as a kid, being an adult in this town means that growing up is optional.</p>
+      <p>I rediscover the Cruisin World driving game, which I had played fanatically in early 1997. Tony and I were on it regular at Norris Center at Northwestern campus, usually following a few hours playing pool there using an old college ID. We even had little driving gloves we would wear. Then retiring to our usual manor, the IHOP at Howard and Western. RIP Tony, we miss you too.</p>
     </section>
     <section>
       <h2>shoes</h2>
+      <p>Every day in the glass box, I am in the elevators at least a dozen times. I develop a fixation on men's business shoes, I had worn sneakers for years and was suddenly very self conscious about them. I start getting cheap knock-offs of that pristine business look, but they are from Ross and poorly made and fall apart quickly. I finally spend a modest amount on a good pair of leather work shoes, they serve me well. I still have them in the closet, if I ever need to return to the glass box.</p>
+      <p>Be honest in your shoes and in your life, everyone can spot the cheap knockoff and it's never a good look.</p>
     </section>
   </Layout>
 </template>
@@ -50,7 +48,7 @@ import {railLinks09} from '@/pages/2009/index'
 
 export default {
   head: {
-    title: 'Tales // 2009 // ARX // P1RK5',
+    title: 'Tales : 2009 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

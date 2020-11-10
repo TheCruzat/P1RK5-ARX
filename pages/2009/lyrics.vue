@@ -155,7 +155,7 @@ import {railLinks09} from '@/pages/2009/index'
 
 export default {
   head: {
-    title: 'Lyrics // 2009 // ARX // P1RK5',
+    title: 'Lyrics : 2009 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

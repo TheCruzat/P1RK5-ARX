@@ -4,12 +4,10 @@
         <p>"...and the whining schoolboy, with his satchel and shining morning face..."</p>
       </section>
       <section>
-        <p>I was 16 years old</p>
+        <h2>Credo / Posture / Boasts / Lake / Wild</h2>
       </section>
       <section>
-        <div class="set">
-          <h2>Credo / Posture / Boasts / Lake / Wild</h2>
-        </div>
+        <p>I was 16 years old</p>
       </section>
     </Layout>
 </template>
@@ -37,7 +35,7 @@ export const railLinks94 = [
 ];
 export default {
   head: {
-    title: '1994 // ARX // P1RK5',
+    title: '1994 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

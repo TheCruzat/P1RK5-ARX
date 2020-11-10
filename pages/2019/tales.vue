@@ -29,13 +29,16 @@
     </section>
     <section>
       <h2>backroads</h2>
-      <p>At the very bottom of Portland, along the eastern hills, broad boulevards, narrow sidestreets and gravel roads that only suggest civilization.</p>
+      <p>At the very bottom of Portland, along the eastern hills and broad boulevards, the narrow sidestreets and gravel roads that only suggest civilization, we find the hero of our story in his own Odd Den. He has come to realize that life is never a direct line from A to B, it is a jillion small connections, shining like a galaxy.</p>
+      <p>My life has never been about the main road.</p>
     </section>
     <section>
       <h2>coffee</h2>
+      <p>Some things will never change, and you will always find Dan Cruzat dropping into the local cafe for an Americano -- 2 shot black, 75% of the time over ice.</p>
+      <p>In my youth, the cafe was the community, we all gathered there, always aware of the odd older gray wolf, showing deference to a regular's preferred seat. Now, I am the older wolf, and the communities are online. There are no more regulars in that same way, the world has changed and we have changed with it.</p>
     </section>
     <section>
-      <h2></h2>
+      <p>...as it was in the beginning, so shall it end...</p>
     </section>
   </Layout>
 </template>
@@ -46,7 +49,7 @@ import {railLinks19} from '@/pages/2019/index'
 
 export default {
   head: {
-    title: 'Tales // 2019 // ARX // P1RK5',
+    title: 'Tales : 2019 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

@@ -2,8 +2,10 @@
   <Layout spec="tales" :sub="railLinks">
     <section>
       <h2>Credo</h2>
-      <p>We were guppies in clear water, all views were smaller and less splintered. Every piece of equipment was a massive expenditure that demanded fanatical mastery. Everything on cassette, every second of recording mattered.</p>
-      <p>There was a searing focus to create, to explore, to discover ourselves through our various crafts. We all strove to make cool things... if there was going to be a silly stupid song, it still needed to sound cool.</p>
+      <p>In the very beginning, the experience and the view are very small. There is a focus, a singularity, a clarity of purpose. The drives burn themselves into our minds and our hearts, the wiring is put in place. We are lifers.</p>
+      <p>Everything is recorded to and bounced off cassette, which gives the sound its own character, a separate life. The recordings feel more natural, the tidiness of digital editing had not yet arrived.</p>
+      <!--p>We were guppies in clear water, all views were smaller and less splintered. Every piece of equipment was a massive expenditure that demanded fanatical mastery. Everything on cassette, every second of recording mattered.</p>
+      <p>There was a searing focus to create, to explore, to discover ourselves through our various crafts. We all strove to make cool things... if there was going to be a silly stupid song, it still needed to sound cool.</p-->
     </section>
     <section>
       <h2>Posture</h2>
@@ -21,7 +23,7 @@
     <section>
       <h2>Wild</h2>
       <p>We gathered in a pack that would number from 4 to 14, we ran havoc through every suburb of Chicago our boredom would lead us to.</p>
-      <p>We stole anything that wasn't nailed down. Trophies and treasures, as well as trash that was quickly disposed of. Some were about the take, not the keep.</p>
+      <p>We stole anything that wasn't nailed down. Trophies and treasures, as well as trash that was quickly disposed of. Some were about the take, not the keep. A few have been kept to this day.</p>
     </section>
     <section>
       <h2>Isaac's Van</h2>
@@ -48,7 +50,7 @@ import {railLinks94} from '@/pages/1994/index'
 
 export default {
   head: {
-    title: 'Tales // 1994 // ARX // P1RK5',
+    title: 'Tales : 1994 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

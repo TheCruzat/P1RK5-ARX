@@ -7,16 +7,16 @@
     </section>
     <section>
       <h2>Cypher</h2>
-      <p>In 1999 I attended Columbia College in Chicago for audio engineering, I lasted a year before leaving for web design. But while I was there, in the time around classes we would gather in clusters under the El tracks and go back and forth spitting our best 16s. Shoutout Musiq Soulchild + Power Culture 45.</p>
+      <p>In 1999 I attended Columbia College in Chicago for audio engineering, I lasted a year before leaving for web design. But while I was there, in the time around classes, we would gather in clusters under the El tracks and go back and forth spitting our best 16s. Shoutout Black Neon, Musiq Soulchild + Power Culture 45.</p>
     </section>
     <section>
       <h2>Basement</h2>
-      <p>Meeting other beatmakers and home engineers, seeing other setups, learning about other kinds of equipment. Still a year away from setting foot in a proper studio for the first time to work on my own music.</p>
-      <p>The age of young chest thumping and bravado. Intensely aping our influences in trying to find our own distinctive sounds.</p>
+      <p>Meeting other beatmakers and home engineers, seeing other setups, learning about other kinds of equipment. I remember Alex showing me his MPC 2000, playing each sound on its pad -- all one-shots. "Where's the loop?" He hits play and each sound finds its slot, "...it's in the sequencer."</p>
+      <p>The age of young chest thumping and bravado. Intensely aping our influences in trying to find our own distinctive sounds. Dr Octagon had many, many children.</p>
     </section>
     <section>
       <h2>Radio</h2>
-      <p>I had worked a LOT in my car and been stuck with a lot of daytime radio, specifically Chicago's Lamestream Alternative, Q101. I had heard the sounds of hip hop creeping over for years. Breakbeats, sampler filter tricks, full on rapping, scratching (or faux scratch effects), more and more these methods I had heard in hip hop for years were finding their way to the top of the charts.</p>
+      <p>I had worked a LOT in my car and been stuck with a lot of daytime radio, specifically Chicago's Lamestream Alternative, Q101. The sounds of hip hop had been creeping over for a while. Breakbeats, sampler filter tricks, full on rapping, scratching (or faux scratch effects), more and more these methods I had heard in hip hop for years were finding their way to the top of the charts.</p>
     </section>
     <section>
       <h2>Temple</h2>
@@ -24,19 +24,20 @@
     </section>
     <section>
       <h2>horchata</h2>
-    </section>
-    <section>
       <p>El Cid #2 became a regular spot for a variety of delicious standards and the best goddamn horchata on the planet. They also sold Parliament Lights in 2-packs and were cool about matches. Proximity to El Cid was one of the reasons we took the apartment on Whipple.</p>
-    </section>
-    <section>
-      <p>Ghost in the Shell, Ninja Scroll, Appleseed, Aeon Flux, quesadillas with sour cream and beanie rice. Cold Coronas with lime. There was also a bodega on the corner that was good for daytime snacks, a gas station at Sacramento was good for night time snacks.</p>
+      <p>Ghost in the Shell, Ninja Scroll, Appleseed, Aeon Flux, quesadillas with sour cream and beanie rice. Cold Coronas with lime. There was also a bodega on the corner that was good for daytime snacks, a gas station at Sacramento was the spot at night.</p>
+      <p>One early night with HTML, I'm walking back to the crib with a bottle of Pepsi and a bag of chips. The Pepsi was a Phantom Menace promo, Natalie Portman in her princess mode glaring defiantly in judgement.</p>
     </section>
     <section>
       <h2>hunting globally</h2>
+      <p>We were at MP3.com constantly looking for weird sounds and textures from fellow nerds and bedroom wizards. We searched for every beatmaker site we could find, early engines weren't half as effective as sites crosslinking.</p>
+      <p>HUGE stockpiles of drum sounds and one-shot packs, root tones for samplers, vocal tidbits and loops, we went hunting for it all. And all of this was on top of our continued commitment to hunting through all media for "useful" sounds.</p>
     </section>
     <section>
-      <p>We were at MP3.com looking for weird sounds and textures from fellow nerds</p>
-      <p>HUGE stockpiles of drum sounds and one-shot packs</p>
+      <h2>fear</h2>
+      <p>At one point, there was the belief that every computer, everywhere, had the potential to malfunction within a 24 hour window, worldwide. The two digit difference between seeing a year as 99 or 1999, 00 or 1900/2000.</p>
+      <p>It was called Y2k, and, in the end, it was <a href="https://www.youtube.com/watch?v=EEhEQEG43RU" target="_blank">Leonard Nimoy</a> who saved us.</p>
+      <p>There was an emerging threat, a phantom menace, but it had nothing to do with the tech itself. The danger was in how we were using the tech, daily. Having it become a part of our lives to the point where the days before email are now only a dim memory.</p>
     </section>
   </Layout>
 </template>
@@ -47,7 +48,7 @@ import {railLinks99} from '@/pages/1999/index'
 
 export default {
   head: {
-    title: 'Tales // 1999 // ARX // P1RK5',
+    title: 'Tales : 1999 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

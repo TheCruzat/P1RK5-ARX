@@ -56,6 +56,9 @@
       Forget about your problems, sit with polar opposites<br>
         The world’s full of shit and we’ve got a lot of it</p>
 
+    </section>
+    <section>
+
       <h2>Cypher</h2>
 
       <p>Yo<br>
@@ -153,8 +156,6 @@
       We all looked to Main Source for drums<br>
         Edge of the future the next had begun</p>
 
-      - - - - -
-
       <p>Life off Diversey, Brown Line to Blue<br>
       Korean BBQ to quesadillas for the crew<br>
       Cheap beer cheap smokes weak hopes sneak<br>
@@ -196,7 +197,7 @@ import {railLinks99} from '@/pages/1999/index'
 
 export default {
   head: {
-    title: 'Lyrics // 1999 // ARX // P1RK5',
+    title: 'Lyrics : 1999 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

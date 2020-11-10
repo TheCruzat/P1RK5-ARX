@@ -106,6 +106,9 @@
     </section>
     <section>
       <h2>Beacon</h2>
+      <p>3x <br>
+      Beacons, beacons, I'm just dropping beacons<br>
+      Beacons, beacons, I'm just dropping beacons on the weekends</p>
     </section>
     <section>
       <h2>Nos</h2>
@@ -184,7 +187,7 @@ import {railLinks19} from '@/pages/2019/index'
 
 export default {
   head: {
-    title: 'Lyrics // 2019 // ARX // P1RK5',
+    title: 'Lyrics : 2019 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

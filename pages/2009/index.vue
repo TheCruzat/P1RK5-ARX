@@ -4,12 +4,10 @@
       <p>"...then the soldier, full of strange oaths and bearded like the pard..."</p>
     </section>
     <section>
-      <p>I was 31 years old</p>
+      <h2>Office / Revels / Regular / Last / Chapters</h2>
     </section>
     <section>
-      <div class="set">
-        <h2>Office / Revels / Regular / Last / Chapters</h2>
-      </div>
+      <p>I was 31 years old</p>
     </section>
   </Layout>
 </template>
@@ -38,7 +36,7 @@ export const railLinks09 = [
 
 export default {
   head: {
-    title: '2009 // ARX // P1RK5',
+    title: '2009 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

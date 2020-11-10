@@ -4,12 +4,10 @@
       <p>"...then the lover, sighing like furnace, with a woeful ballad..."</p>
     </section>
     <section>
-      <p>I was 21 years old</p>
+      <h2>Car / Cypher / Basement / Radio / Temple</h2>
     </section>
     <section>
-      <div class="set">
-        <h2>Car / Cypher / Basement / Radio / Temple</h2>
-      </div>
+      <p>I was 21 years old</p>
     </section>
   </Layout>
 </template>
@@ -38,7 +36,7 @@ export const railLinks99 = [
 
 export default {
   head: {
-    title: '1999 // ARX // P1RK5',
+    title: '1999 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

@@ -21,7 +21,7 @@ import {railLinks19} from '@/pages/2019/index'
 
 export default {
   head: {
-    title: 'Gear // 2019 // ARX // P1RK5',
+    title: 'Gear : 2019 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

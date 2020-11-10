@@ -26,7 +26,7 @@ import {railLinks94} from '@/pages/1994/index'
 
 export default {
   head: {
-    title: 'Gear // 1994 // ARX // P1RK5',
+    title: 'Gear : 1994 : ARX // P1RK5',
     meta: [
       {
         hid: 'description',

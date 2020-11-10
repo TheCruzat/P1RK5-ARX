@@ -2,7 +2,7 @@
   <Layout>
     <section>
       <p>"in his lifetime, a man will play many parts, divided into seven acts..."</p>
-      <h2>ARX: 4 Stages of Life Across 25 Years</h2>
+      <h2>4 Stages of Life Across 25 Years</h2>
     </section>
     <nuxt-link to="/1994" class="section overview">
       <div class="set">
@@ -29,11 +29,15 @@
       </div>
     </nuxt-link>
     <section>
-      <p>Dan Cruzat dba P1RK5, at the Odd Den</p>
+      <p>with Dan Cruzat as P1RK5, at the Odd Den</p>
       <p>Produced in 2018-2019<br>
-      Recorded March-October 2020<br>
+        Written in 2019<br>
+        Recorded March-October 2020<br>
         Mixed July-October 2020<br>
-      Mastered October 2020</p>
+        Finalized October-November 2020</p>
+    </section>
+    <section>
+      <p>Grateful to the people I have known and the adventures we have shared.</p>
     </section>
     <section>
       <p>ARX artwork by Sudi</p>
@@ -61,9 +65,8 @@ export default {
   @import "../styles/global";
   .overview {
     .set {
-      //display: flex;
-      //flex-direction: column;
-      //align-items: flex-end;
+      display: flex;
+      flex-direction: column;
       *:first-child {
         margin: 0;
       }
@@ -75,6 +78,10 @@ export default {
       }
       h2, h3, h4, h5 {
 
+      }
+      @include mFlipUp() {
+        align-items: flex-end;
+        justify-content: flex-start;
       }
       @include mFlipUp("large") {
         font-size: 150%;
