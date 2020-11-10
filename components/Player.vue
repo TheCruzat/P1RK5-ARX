@@ -2,8 +2,8 @@
   <div class="player--base">
     <div v-bind:class="{ open: open }" class="player">
       <button class="player--cta" @click="open = !open">
-        <span v-if="open">[- {{ label }} -]</span>
-        <span v-if="!open">[+ {{ label }} +]</span>
+        <span v-if="open">( - {{ label }} - )</span>
+        <span v-if="!open">( + {{ label }} + )</span>
       </button>
       <div class="player--frame">
         <iframe style="border: 0; width: 400px; height: 270px;" src="https://bandcamp.com/EmbeddedPlayer/album=2765602080/size=large/bgcol=333333/linkcol=3dc8ff/artwork=none/transparent=true/" seamless></iframe>
@@ -14,10 +14,17 @@
 
 <script>
 
+function togglePlayer() {
+  open = !open;
+}
+
 export default {
+  // props: {
+  //   open: Boolean
+  // },
   data: function() {
     return {
-      open: false,
+      open: false,// open,
       label: "listen",
     }
   }
@@ -59,11 +66,26 @@ export default {
       border: none;
       padding: 0;
       cursor: pointer;
+      font-size: 1.4rem; // var(--railSubSize); //
+      font-family: $title;
+      text-transform: uppercase;
+      // height: var(--railHeight);
+      // margin: -20px 0 -60px;
+      font-weight: 100;
+      // transition: all 0.5s ease-in;
+
+      .player.open & {
+        //transition: all 0.3s ease-out;
+        //height: auto;
+        //margin: 0;
+      }
 
       @include mFlipDown() {
         display: block;
         width: 100%;
         height: $mcta;
+        margin: 0;
+        font-size: 1rem;
       }
     }
 
