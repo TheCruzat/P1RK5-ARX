@@ -216,7 +216,10 @@ section, a.section {
   }
 
   p {
-    // text-align: justify;
+    @include mFlipUp() {
+      text-align: justify;
+    }
+    //
   }
 
   p + p {
