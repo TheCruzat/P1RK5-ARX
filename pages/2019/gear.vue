@@ -6,7 +6,7 @@
     </section>
     <section>
       <h2>Hardware</h2>
-      <p>MPC 2500, A Station, MS-2000R, JP-8080, J Bass (de Mejico), SG Special</p>
+      <p>MPC 2500, A Station, MS-2000R, JP-8080, Micro Granny, PO-33, J Bass (de Mejico), SG Special</p>
     </section>
     <section>
       <h2>Recording</h2>
