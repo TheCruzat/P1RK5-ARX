@@ -59,9 +59,9 @@ export default Vue.extend({
         @include mFlipUp() {
           margin-top: 4vh;
           &:last-child {
-            position: absolute;
-            bottom: 3px;
-            left: 0;
+            //position: absolute;
+            //bottom: 3px;
+            //left: 0;
             &.nuxt-link-exact-active {
               display: none;
             }
