@@ -101,6 +101,8 @@ $subRailHeight: 28px;
   --railTitleSize: 2.6rem;
   --railSubSize: 1.3rem;
 
+  --cassetteW: 100px;
+
   @include mFlipUp('small') {
     --railHeight: 6rem;
     // --railTitleSize: 5rem;
@@ -108,6 +110,8 @@ $subRailHeight: 28px;
   @include mFlipUp('medium') {
     --railTitleSize: 4rem;
     --railSubSize: 2rem;
+
+    --cassetteW: 140px;
   }
 
   @include mFlipUp('large') {
