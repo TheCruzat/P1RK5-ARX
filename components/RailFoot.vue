@@ -65,7 +65,7 @@ $mcta: 32px;
 
   p {
     font-size: 1rem;
-    color: rgba(255,255,255,0.5); // color: rgba(0,0,0,0.2);
+    color: rgba(255,255,255,0.8); // color: rgba(0,0,0,0.2);
 
     @include mFlipDown() {
       line-height: 1.4;
@@ -84,13 +84,15 @@ $mcta: 32px;
   }
 
   credit {
-    @include mFlipDown('small') {
+    @include mFlipDown('medium') {
       display: block;
     }
   }
 
   a {
     font-weight: 100;
+    color: var(--white);
+    opacity: 1;
 
     @include mFlipUp('medium') {
       display: inline-flex;
