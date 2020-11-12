@@ -27,8 +27,8 @@
       width: $disc2;
       height: $disc2;
       border-radius: 50%;
-      top: calc(50vh - #{$disc2/2});
-      left: calc(50vw - #{$disc2/2});
+      // top: $disc2/2; // calc(50vh - #{$disc2/2});
+      // left: $disc2/2; // calc(50vw - #{$disc2/2});
       background: url('/bgs/sudi01.jpg') 50% 50% no-repeat;
       background-size: cover;
       z-index: -1;
@@ -47,22 +47,23 @@
         $disc2: 220vw; // 114vw;
         width: $disc2;
         height: $disc2;
-        top: calc(50vh - #{$disc2/2});
-        left: calc(50vw - #{$disc2/2});
+        top: - $disc2/2; // calc(50vh - #{$disc2/2});
+        left: - $disc2/2; // calc(50vw - #{$disc2/2});
         opacity: 0.2;
+        // display: none;
       }
     }
 
     &:after {
-      $disc: 123vw; // 114vw;
+      $disc: 210vw; // 114vw;
       display: block;
       content: "";
       position: absolute;
       width: $disc;
       height: $disc;
       border-radius: 50%;
-      top: calc(50vh - #{$disc/2});
-      left: calc(50vw - #{$disc/2});
+      top: - $disc/2; // calc(50vh - #{$disc/2});
+      left: - $disc/2; // calc(50vw - #{$disc/2});
       background: url('/bgs/sudi01.jpg') 50% 50% no-repeat;
       background-size: cover;
       animation: rotato 800s linear infinite;
