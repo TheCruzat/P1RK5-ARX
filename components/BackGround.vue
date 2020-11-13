@@ -131,7 +131,7 @@
       opacity: 1;
       bottom: 2rem;
       position: absolute;
-      transform: rotate(-12deg);
+      // transform: rotate(-12deg);
 
       @include mFlipDown() {
         // display: none;
