@@ -11,7 +11,7 @@
         <!---->
       </button>
       <div class="player--frame">
-        <iframe style="border: 0; width: 400px; height: 270px;" src="https://bandcamp.com/EmbeddedPlayer/album=2765602080/size=large/bgcol=333333/linkcol=3dc8ff/artwork=none/transparent=true/" seamless></iframe>
+        <iframe style="border: 0; width: 400px; height: 270px;" src="https://bandcamp.com/EmbeddedPlayer/album=914784541/size=large/bgcol=333333/linkcol=3dc8ff/artwork=none/transparent=true/" seamless></iframe>
       </div>
     </div>
   </div>
