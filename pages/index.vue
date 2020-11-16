@@ -30,7 +30,7 @@
     </nuxt-link>
     <section>
       <p>with Dan Cruzat as P1RK5, at the Odd Den</p>
-      <p>Produced in 2018-2019</p>
+      <p>Beats from  2018-2019</p>
       <p>Written in 2019</p>
       <p>Recorded March-October 2020</p>
       <p>Mixed July-October 2020</p>
