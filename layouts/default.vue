@@ -17,6 +17,30 @@
       return {
         meta: [
           {
+            'name': 'twitter:card',
+            'content': 'summary_large_image',
+          },
+          {
+            'name': 'twitter:site',
+            'content': '@p1rk5',
+          },
+          {
+            'name': 'twitter:creator',
+            'content': '@_cruzat',
+          },
+          {
+            'name': 'twitter:title',
+            'content': 'ARX // P1RK5',
+          },
+          {
+            'name': 'twitter:description',
+            'content': 'The interactive companion to ARX by P1RK5',
+          },
+          {
+            'name': 'twitter:image',
+            'content': './social.png',
+          },
+          {
             'property':  'og:title',
             'content':  `ARX // P1RK5`,
           },
