@@ -38,7 +38,7 @@
           },
           {
             'name': 'twitter:image',
-            'content': './social.png',
+            'content': 'https://arx.p1rk5.com/social.jpg',
           },
           {
             'property':  'og:title',
