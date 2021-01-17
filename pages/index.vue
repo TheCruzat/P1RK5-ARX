@@ -58,12 +58,12 @@
 <script>
 export default {
   head: {
-    title: 'ARX // P1RK5',
+    title: 'ARX // P1RK5 // 25YRS',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'The interactive companion to ARX by P1RK5',
+        content: 'Snapshots from four points in the life of an oddball',
       }
     ],
   },

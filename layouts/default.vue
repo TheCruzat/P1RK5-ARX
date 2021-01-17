@@ -30,11 +30,11 @@
           },
           {
             'name': 'twitter:title',
-            'content': 'ARX // P1RK5',
+            'content': 'ARX // P1RK5 // 25YRS',
           },
           {
             'name': 'twitter:description',
-            'content': 'The interactive companion to ARX by P1RK5',
+            'content': 'Snapshots from four points in the life of an oddball',
           },
           {
             'name': 'twitter:image',
@@ -42,11 +42,11 @@
           },
           {
             'property':  'og:title',
-            'content':  `ARX // P1RK5`,
+            'content':  `ARX // P1RK5 // 25YRS`,
           },
           {
             'property':  'og:description',
-            'content': `The interactive companion to ARX by P1RK5`,
+            'content': `Snapshots from four points in the life of an oddball`,
           },
           {
             'property':  'og:image',
