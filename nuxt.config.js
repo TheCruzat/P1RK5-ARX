@@ -12,7 +12,8 @@ export default {
     ],
     link: [
       // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito:wght@200;400&family=Rubik&display=swap' },
-      { rel: 'icon', type: 'image/x-icon', href: '/spiral1.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favico.ico' },
+      { rel: 'apple-touch-icon', href: '/icon.png' }
       ],
   },
 
