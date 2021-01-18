@@ -39,6 +39,7 @@ $mcta: 32px;
   z-index: 1;
 
   @include mFlipUp() {
+    height: calc(var(--railHeight) * 0.8);
     align-items: flex-end;
     justify-content: space-between;
   }
@@ -55,7 +56,10 @@ $mcta: 32px;
     left: 0;
     right: 0;
     @include mFlipUp() {
-      display: none;
+      background: none;
+      // display: none;
+      filter: blur(12px);
+      -webkit-filter: blur(12px);
     }
   }
 

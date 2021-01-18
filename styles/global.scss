@@ -71,10 +71,13 @@ $mcta: 32px;
 
   height: var(--railHeight);
   // border: 1px solid greenyellow;
-  // background: var(--white);
 
   @include mFlipUp() {
+    background: rgba(0,0,0,0.05); /// var(--white);
+    // box-shadow: inset 0 0 3px 1px rgba(0,0,0,0.1);
     padding: 20px;
+    // filter: blur(8px);
+    // -webkit-filter: blur(8px);
   }
 
   > * + * {

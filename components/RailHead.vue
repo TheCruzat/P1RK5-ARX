@@ -1,5 +1,6 @@
  <template>
    <div class="top-rail">
+     <div class="top-rail__panel"></div>
      <div class="years">
 
        <nuxt-link v-for="yr in yrs" :key="yr" v-if="spec" :to="'/'+yr+'/'+spec">{{ yr }}</nuxt-link>
