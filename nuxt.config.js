@@ -1,14 +1,42 @@
+const metaName = "P1RK5";
+
+const metaFings = {
+  name: metaName,
+  url: "https://arx.p1rk5.com",
+  title: "ARX // P1RK5 // 25YRS",
+  description: "Snapshots from four points in the life of an oddball",
+  image: "https://arx.p1rk5.com/social.png",
+  twitter: "@p1rk5"
+}
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'ARX // P1RK5 // 25YRS',
+    title: metaFings.title,
+    htmlAttrs: {
+      lang: 'en',
+      prefix: 'og: http://ogp.me/ns#'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Four Snapshots in the Life of an Oddball' },
+      { hid: 'description', name: 'description', content: metaFings.description },
+      { name: "keywords", content: "" },
+      { name: "author", content: "Dan Cruzat" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: metaFings.twitter },
+      { name: "twitter:creator", content: metaFings.twitter },
+      { name: "twitter:title", content: metaFings.title },
+      { name: "twitter:description", content: metaFings.description },
+      { name: "twitter:image", content: metaFings.image },
+      { property: "og:url", content: metaFings.url },
+      { property: "og:title", content: metaFings.title },
+      { property: "og:site_name", content: metaFings.title },
+      { property: "og:description", content: metaFings.description },
+      { property: "og:image", content: metaFings.image },
     ],
     link: [
       // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito:wght@200;400&family=Rubik&display=swap' },
