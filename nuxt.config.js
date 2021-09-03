@@ -34,7 +34,7 @@ export default {
       { name: "twitter:image", content: metaFings.image },
       { property: "og:url", content: metaFings.url },
       { property: "og:title", content: metaFings.title },
-      { property: "og:site_name", content: metaFings.title },
+      { property: "og:site_name", content: metaFings.url },
       { property: "og:description", content: metaFings.description },
       { property: "og:image", content: metaFings.image },
     ],
