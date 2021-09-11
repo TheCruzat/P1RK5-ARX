@@ -88,3 +88,5 @@ sw.*
 
 # Vim swap files
 *.swp
+/ARXNuxt.sublime-project
+/ARXNuxt.sublime-workspace
